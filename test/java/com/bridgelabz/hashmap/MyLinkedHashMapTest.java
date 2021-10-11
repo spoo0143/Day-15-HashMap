@@ -8,7 +8,7 @@ public class MyLinkedHashMapTest {
 	
 	public void givenASentenceWhenWordsAreAddedToListShouldReturnWordFrequency() {
 		
-		String sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into  paranoid situations";
+		String sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into  paranoid avoidable situations";
 		
 		MyLinkedHashMap<String, Integer> myLinkedHashMap = new MyLinkedHashMap<>();
 		String[] words = sentence.toLowerCase().split(" ");
